@@ -1,14 +1,9 @@
 version: '3.3'
 
 services:
-  react-app:
-    build:
-      context: . # 현재 디렉토리를 build 컨텍스트로 사용
-      dockerfile: Dockerfile
+  webserver:
+    #build: .
+    image: dcplife/facility_front:v1.0
     ports:
       - "3000:3000" # 호스트의 3000 포트를 컨테이너의 3000 포트에 매핑
-    volumes:
-      - ./src:/src # 로컬 src 디렉토리를 컨테이너 src 디렉토리에 매핑 (핫 리로딩 지원)
-    stdin_open: true # React 개발 서버에서 Ctrl+C로 종료 가능하게 설정
-    tty: true # 상호작용 가능한 셸 지원
 
