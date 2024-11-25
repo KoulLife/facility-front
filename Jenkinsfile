@@ -1,6 +1,6 @@
 node {
     stage('Clone repository') {
-        git branch: 'main', credentialsId: 'github_access_token', url: 'https://github.com/KoulLife/facility-front.git'
+        git credentialsId: 'github_access_token', url: 'https://github.com/KoulLife/facility-front.git'
     }
 
     stage('Build image') {
