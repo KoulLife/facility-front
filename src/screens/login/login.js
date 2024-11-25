@@ -113,7 +113,7 @@ export default function Login() {
                                         }}>
                                     </Box>
                                 </Box>
-                                <Typography>Fuuuuuuuuukin</Typography>
+                                <Typography>KIKI DO YOU LOVE ME</Typography>
                                 <Box component="form" onSubmit={handleLogin} noValidate autoComplete="off"
                                     sx={{ width: '100%' }}>
                                     <TextField
