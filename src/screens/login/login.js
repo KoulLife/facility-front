@@ -113,7 +113,7 @@ export default function Login() {
                                         }}>
                                     </Box>
                                 </Box>
-                                <Typography>유니체크에 오신것을 환영합니다 !</Typography>
+                                <Typography>Fuuuuuuuuukin</Typography>
                                 <Box component="form" onSubmit={handleLogin} noValidate autoComplete="off"
                                     sx={{ width: '100%' }}>
                                     <TextField
