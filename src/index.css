@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Pretendard-Regular', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 색상 (고객 직접 지정) */
+:root {
+  --main-blue-color: #1C6DFF;
+  --main-softblue-color: #4C9AFF;
+  --main-white-color: #F5F5F5;
+  --sub-darkblue-color: #004DA9;
+  --sub-orange-color: #FDA300;
+  --sub-mediumgrey-color: #D3D3D3;
+  --sub-darkgrey-color: #5B5B5B;
+  --sub-excel-color :#1D6F42;
+}

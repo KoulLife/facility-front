@@ -1,0 +1,70 @@
+{
+  "name": "facility_check_system",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.17",
+    "@mui/lab": "^5.0.0-alpha.168",
+    "@mui/material": "^5.15.15",
+    "@mui/x-data-grid": "^7.5.0",
+    "@mui/x-date-pickers": "^7.0.0",
+    "@mui/x-tree-view": "^6.17.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "browser-image-compression": "^2.0.2",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.10",
+    "history": "^5.3.0",
+    "imask": "^7.6.0",
+    "pdfjs-dist": "^4.7.76",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-d3-tree": "^3.6.2",
+    "react-data-table-component": "^7.6.2",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.51.2",
+    "react-imask": "^7.6.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-org-tree": "^1.0.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-virtualized-auto-sizer": "^1.0.24",
+    "react-window": "^1.8.10",
+    "react-window-infinite-loader": "^1.0.9",
+    "recharts": "^2.13.0-alpha.4",
+    "styled-components": "^6.1.11",
+    "styled-reset": "^4.5.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

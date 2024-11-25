@@ -1,0 +1,19 @@
+/* intro.css */
+
+.intro-fade-enter {
+    opacity: 0;
+}
+
+.intro-fade-enter-active {
+    opacity: 1;
+    transition: opacity 150ms ease-in;
+}
+
+.intro-fade-exit {
+    opacity: 1;
+}
+
+.intro-fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+}

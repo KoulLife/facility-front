@@ -1,0 +1,43 @@
+.App-logo {
+    width: 200px;
+    pointer-events: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.containerMax {
+    max-width: 1500px;
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+.css-1uigekd-MuiCardContent-root:last-child {
+    padding-bottom: 0 !important;
+    padding: 5px;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8.5px 14px !important;
+}
+
+/* 민원 화면전환 애니메이션*/
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 100ms ease-in-out;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+}

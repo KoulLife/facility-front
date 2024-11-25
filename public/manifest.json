@@ -1,0 +1,20 @@
+{
+  "short_name": "UniCheck",
+  "name": "UniCheck Facility Management System",
+  "icons": [
+    {
+      "src": "%PUBLIC_URL%/UNI_LOGO_BLUE_with_white_bg.png",
+      "sizes": "64x64 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "%PUBLIC_URL%/UNI_LOGO_BLUE_with_white_bg.png",
+      "sizes": "64x64 32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color" : "#fff"
+}
